@@ -146,3 +146,10 @@ li {
 .contact-card p {
   margin: 0.6rem 0;
 }
+
+.site-footer {
+  text-align: center;
+  padding: 1.5rem 0 2rem;
+  color: #5b6472;
+  font-size: 0.95rem;
+}
