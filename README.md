@@ -1,1 +1,7 @@
-# CS254_Resume_Webpage.
+This project is a personal resume webpage built using HTML and CSS. It is designed as a single-page site with a simple navigation bar that lets users move easily between sections like About, Education, Skills, Certifications, Activities, and Contact. The overall layout is clean and straightforward so that information can be read quickly without any confusion.
+
+I developed the project step by step using Git and pushed the code to GitHub with clear commit messages at each stage. After that, I connected the repository to Cloudflare Pages and deployed the site. Since it is a static webpage, no build command was needed, and the site was deployed directly from the root directory. Cloudflare provided a pages.dev link, which I used to check that everything was working properly.
+
+To set up a custom domain, I added a CNAME record in Cloudflare DNS that points to the Cloudflare Pages URL. I then connected the domain in the Cloudflare Pages settings. Cloudflare automatically handled the SSL setup, so the website is accessible over HTTPS without any extra configuration.
+
+One issue I ran into was that the CSS was not loading after deployment. This was caused by a mismatch in file naming, since Cloudflare is case-sensitive. I fixed it by making sure the file name and the reference in the HTML matched exactly. Another challenge was organizing the Git commits properly, which I handled by breaking the work into clear steps and committing after each major change.
